@@ -1,9 +1,17 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import ProfileSection from "./components/ProfileSection";
+import SkillsSection from "./components/SkillsSection";
+import ProjectsSection from "./components/ProjectsSection";
+import ContactSection from "./components/ContactSection";
 
 function App() {
   return(
-    <Navbar/>
+    <HeroSection />
+    // <ProfileSection />
+    // <SkillsSection />
+    // <ProjectsSection />
+    // <ContactSection />
   );
 }
 
